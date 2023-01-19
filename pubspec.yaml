@@ -1,0 +1,25 @@
+name: chrome_extension_example
+description: An example chrome extension app
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-35.0.dev <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.5
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.1.3
+  shared_preferences: ^2.0.16
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
